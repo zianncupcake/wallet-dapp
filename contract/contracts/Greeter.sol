@@ -11,6 +11,7 @@ contract Greeter {
     }
 
     function greet() public view returns (string memory) {
+        console.log(greeting);
         return greeting;
     }
 
